@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+     maximum-scale=1">
+    <link rel="stylesheet"href="layui/css/layui.css"  media="all">
+    <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+</head>
+<body>
+
+<table class="layui-table"
+       lay-data="{width:800, url:'/test/table/demo2.json?v=2',
+       page: true, limit: 6, limits:[6]}">
+    <thead>
+    <tr>
+        <th lay-data="{align:'center'}" colspan="6">学生详情</th>
+      </tr>
+    <tr>
+        <th lay-data="{field:'province', width:100}">ID</th>
+        <th lay-data="{field:'city', width:100}">姓名</th>
+        <th lay-data="{field:'zone', width:100}">年龄</th>
+        <th lay-data="{field:'province', width:100}">性别</th>
+        <th lay-data="{field:'city', width:200}">添加日期</th>
+        <th lay-data="{field:'zone', width:250}">最后修改</th>
+    </tr>
+    </thead>
+</table>
+
+
+<script src="./layui/layui.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述 JS 路径需要改成你本地的 -->
+<script>
+
+</script>
+
+</body>
+</html>
